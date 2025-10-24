@@ -1,0 +1,18 @@
+# Minimal requirements for WISTERIA (packages used in the code)
+# Versions taken from the provided conda environment when available.
+
+torch==1.4.0
+numpy==1.19.2
+pandas==1.1.3
+scikit-learn==0.23.2
+matplotlib==3.3.2
+seaborn==0.11.0
+tqdm==4.50.2
+
+# The code also uses the following libraries; not present in the conda list you provided
+# so they are left unpinned. Pin if you need a specific version.
+transformers
+spacy
+
+# Optional: spaCy English model (install separately):
+# python -m spacy download en_core_web_sm
